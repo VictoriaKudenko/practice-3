@@ -23,6 +23,7 @@ body {
     display: block;
     width: 200px;
     margin: 40px auto;
+    background: none; /* Removed background applied by a:link style */
 }
 
 #container {
@@ -53,5 +54,72 @@ body {
     margin: 0 0 0 20px;
 }
 
+#sidebar h3 {
+    background: url("images/green_background.jpg") top left repeat;
+    padding: 10px 10px 10px 30px;
+    margin: 0 0 5px;
+    color: white;
+    position: relative;
+    left: -30px;
+}
 
+#sidebar .widget {
+    margin: 0 0 20px;
+}
 
+#sidebar a:link {
+    display: inline-block;
+}
+
+#special-offer {
+    position: relative;
+    background: url("images/red_background.jpg") top left repeat;
+    color: white;
+    padding: 0 20px 20px;
+    margin: 60px 0 0 0;
+}
+
+#special-offer h2 {
+    font-size: 22px;
+    background: url("images/green_background.jpg") top left repeat;
+    padding: 5px;
+    display: inline;
+    position: relative;
+    top: -15px;
+    left: -35px;
+}
+
+#steak {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+}
+
+/* Typography */
+
+h1,h2,h3 {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p.lead {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+
+address ul {
+    list-style: none;
+}
+
+a:link {
+    background: #577a1b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
